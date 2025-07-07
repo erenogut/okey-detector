@@ -33,6 +33,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
-# Release resources
 cap.release()
 cv2.destroyAllWindows()
